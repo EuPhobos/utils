@@ -9,7 +9,7 @@ while 1 do
 
 	if n > s then
 		s = n
-		print(t)
+		print([[LUA: Tick Per Second: ]] .. t)
 		t = 0
 	end
 	t = t + 1
